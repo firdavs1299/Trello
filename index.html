@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Trello</title>
+	<script type="text/javascript" src="logic.js"></script>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+	<header id="myid">
+		<img src="../Проект1/img/123.png" alt="">
+		<h1>Trelloga xush kelibsiz!</h1>
+	</header>
+	<main>
+		<textarea id="txt_comments" name="txt_comments" rows="10" cols="35">
+		</textarea>
+
+		<i id="iid" class="fa fa-volume-up" aria-hidden="true" onclick="myfunction(document.getElementById('txt_comments').value , 'start')"></i>
+
+		<i id="iidi" class="fa fa-stop-circle" aria-hidden="true" onclick="myfunction(document.getElementById('txt_comments').value , 'end')"></i>
+
+		<audio id="player" autoplay></audio>
+	</main>
+</body>
+</html>
